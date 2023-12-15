@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500;600&family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#newslatter{
+    background-color: #041e42;
+    
+   }
+#newslatter{
+   background-color: #041e42;
+   
+  }
+  #newslatter h4{
+    font-size: 22px;
+    font-size: 700;
+    color: #fff;
+  }
+  #newslatter p{
+    font-size: 14px;
+    font-size: 700;
+    color: #818ea0;
+  }
+  #newslatter p span{
+    color: #ffbd27;
+  }
+  #newslatter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newslatter .form{
+  display: flex;
+  width: 40%;
+  height: 3.125rem;
+}
+  .app{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    
+  }
+  footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+  }
+  footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  footer .follow{
+    margin-top: 20px;
+  }
+  footer .follow i{
+   color: #465b52;
+   padding-right: 4px;
+   cursor: pointer;
+  }
+  footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+ }
+ footer .install img{
+  margin: 10px 0 15px 0;
+ }
+ footer .follow i:hover,
+ footer a:hover{
+  color: #088178;
+ }
+ #page-header{
+    background-image: url("../assets/blog.jpg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+#cart input{
+    width: 70px;
+    padding: 15px;
+    height: 35px;
+}
+/* #cart p{
+    font-size: 15px;
+} */
+#cart .table{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+#subtotal{
+    border: 1px solid #818ea0;
+    padding: 10px;
+}
